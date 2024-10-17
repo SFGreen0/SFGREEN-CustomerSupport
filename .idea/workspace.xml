@@ -5,12 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d2c9c763-8a05-46f9-a2fb-975fc12520aa" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/view/listTickets" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/view/ticketForm.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/view/viewTicket.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/AuthenticationFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/LoginServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/LogoutServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/SessionListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/SessionRegistry.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/home.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/login.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/sessions.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/sfgreencustomersupport/TicketServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/sfgreencustomersupport/TicketServlet.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -62,7 +65,8 @@
       <workItem from="1728836497452" duration="1710000" />
       <workItem from="1728912474123" duration="1569000" />
       <workItem from="1729015451019" duration="600000" />
-      <workItem from="1729189076763" duration="663000" />
+      <workItem from="1729189076763" duration="863000" />
+      <workItem from="1729190262324" duration="962000" />
     </task>
     <servers />
   </component>
