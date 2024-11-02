@@ -1,5 +1,4 @@
 public class Attachment {
-    //private instance varaibles
     private String name;
     private byte[] contents;
 

@@ -1,8 +1,9 @@
-package com.example.filters;
+package org.example.filters;
 import jakarta.servlet.*;
 import jakarta.servlet.annotation.WebFilter;
 import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
+jakarta.servlet.http.HttpSession;
 
 import java.io.IOException;
 
@@ -26,7 +27,7 @@ public class AuthenticationFilter implements Filter {
         if (loggedIn || loginRequest) {
             chain.doFilter(request, response);
         } else {
-            res.sendRedirect("login.jsp");
+            res.sendRedirect(req.getContextPath() + "/login");
         }
     }
 }

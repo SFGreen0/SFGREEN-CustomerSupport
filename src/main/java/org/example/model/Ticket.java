@@ -1,6 +1,5 @@
 import java.util.ArrayList;
 import java.util.List;
-
 public class Ticket {
     private String customerName;
     private String subject;
@@ -50,7 +49,6 @@ public class Ticket {
         this.attachments = attachments;
     }
 
-    // Helper Methods
     public void addAttachment(Attachment attachment) {
         attachments.add(attachment);
     }

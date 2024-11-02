@@ -1,4 +1,4 @@
-package com.example.utils;
+package org.example.utils;
 
 import jakarta.servlet.http.HttpSession;
 import java.util.Collections;

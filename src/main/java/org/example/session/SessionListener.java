@@ -1,6 +1,6 @@
-package com.example.servlets;
+package org.example.servlets;
 
-import com.example.utils.SessionRegistry;
+import org.example.utils.SessionRegistry;
 import jakarta.servlet.annotation.WebListener;
 import jakarta.servlet.http.*;
 
